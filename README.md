@@ -1,12 +1,8 @@
 # semantic-ui-app
 
 To install:
-> npm install
+`npm install`
 
 To Run:
 
-> npm start
-
- or
- 
- > electron .
+`npm start` or `electron .`
