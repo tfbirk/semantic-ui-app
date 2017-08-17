@@ -6,5 +6,7 @@ To install:
 To Run:
 
 > npm start
+
  or
+ 
  > electron .
