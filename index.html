@@ -3,17 +3,20 @@
         <meta charset=utf-8 />
         <title>Storage Viewer</title>
         <link rel="stylesheet" type="text/css" href="node_modules/semantic-ui-css/semantic.min.css">
-        <!--script src="app.js"></script-->
+        <script src="app.js"></script>
     </head>
     <body>
         <div class="ui container">
             <div class="ui basic segment">
                 <h1 class="ui massive dividing header"><img src="disk-lightning.png"/>Storage Viewer</h1>
                 
-                <button class="ui teal button">Action</button>
-                <button class="ui teal button">Button</button>
-                <button class="ui teal button">Click Me</button>
-                <button class="ui button">Documentation</button>
+                <button id="action-btn" class="ui teal button" onclick="action()">Action</button>
+                <button id="button" class="ui teal button">Button</button>
+                <button id="click-me-btn" class="ui teal button">Click Me</button>
+                <button id="doc-btn" class="ui button">Documentation</button>
+                
+                <p></p>
+                <i id="star" class="huge yellow star icon" style="display:none"></i>
                 
                 <table class="ui celled padded table">
                 <thead>
