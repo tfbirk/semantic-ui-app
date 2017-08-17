@@ -13,7 +13,7 @@
                 <button id="action-btn" class="ui teal button" onclick="action()">Action</button>
                 <button id="button" class="ui teal button" onclick="changeClickMeText()"><i class="help icon"></i></button>
                 <button id="click-me-btn" onclick="changeBtnText()" class="ui teal button">Click Me</button>
-                <button id="doc-btn" class="ui button">Documentation</button>
+                <button id="doc-btn" class="ui button" onclick="toggleDocumentation()">Documentation</button>
                 
                 <p></p>
                 <i id="star" class="huge yellow star icon" style="display:none"></i>
@@ -64,6 +64,13 @@
                     </tr>
                 </tbody>
                 </table>
+                
+                <div id="docs" class="ui piled segment" style="display:none">
+                    <h4 class="ui header">Welcome to Documenation</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at velit eu tellus rutrum accumsan tristique nec est. Sed eu dui varius, vestibulum dolor quis, elementum metus. Cras non mi sit amet metus tristique vestibulum. Donec dolor nisi, tincidunt nec posuere vel, scelerisque a eros. Proin elit purus, fermentum at vehicula in, volutpat ut purus. Maecenas eget elit in dolor porttitor dictum at in enim. Etiam tincidunt facilisis turpis, in mattis velit sagittis sit amet. Mauris nec erat sit amet odio luctus lobortis sit amet in nisi. Cras odio dui, tempus in tempus ullamcorper, dictum convallis sem. Duis vel dapibus libero, sit amet maximus metus. Sed posuere nunc id vestibulum pulvinar. Curabitur eu volutpat arcu. Proin in odio erat. In non viverra mauris. Suspendisse ac posuere ante.</p>
+
+                    <p>Donec vehicula nibh non mauris volutpat, non pellentesque sapien lacinia. Fusce quam dui, egestas id neque ac, vehicula porta sapien. Morbi sed ex at neque tristique convallis. Aliquam condimentum sapien quis justo dictum, ac interdum enim lobortis. Quisque consequat quam sit amet risus accumsan, ut fermentum leo elementum. Vestibulum eget lorem non quam iaculis lacinia non vitae ligula. Ut pellentesque rhoncus sapien quis viverra. Sed consequat porttitor leo eget feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam finibus a nisi a consectetur. Nam dapibus tincidunt lectus, hendrerit tempor purus vehicula quis.</p>
+                </div>
             </div>
         </div>
     </body>

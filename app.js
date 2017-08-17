@@ -39,3 +39,16 @@ function changeClickMeText()
         btn.innerHTML = "<i class=\"warning icon\"></i>"
     }
 }
+
+function toggleDocumentation()
+{
+    var docs = document.getElementById("docs")
+    if (docs.style.display == "none")
+    {
+        docs.style.display = "block"
+    }
+    else
+    {
+        docs.style.display = "none"
+    }
+}
